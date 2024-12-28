@@ -1,74 +1,63 @@
-🎮 Joystick Junction 🎮
-=======================
+Joystick Junction
+=================
 
-[](https://github.com/Sami-Jaffri/JoystickJunction#-joystick-junction-)
+Welcome to **Joystick Junction**, your premier destination for exploring the exciting world of gaming!
 
-Welcome to Joystick Junction, your ultimate gateway to the thrilling universe of gaming!
+**About Us**\
+Joystick Junction was developed as a project for **COSC 304** at the **University of British Columbia (UBC)**. Inspired by a passion for gaming and technology, this platform serves as a centralized hub for managing and exploring triple-A game titles.
 
-Born out of a passion for gaming and technology, this platform was developed as a project for COSC 304 at the University of British Columbia (UBC). Designed to be a one-stop hub for exploring and managing triple-A game titles, Joystick Junction offers:
+**Key Features**
 
--   🌟 A sleek and user-friendly interface.
--   🕹️ Tools to organize your gaming library.
--   📰 Updates on the latest industry trends.
+-   A sleek and intuitive user interface
+-   Tools for organizing your gaming library
+-   Updates on the latest industry trends
 
-Whether you're a casual player or a hardcore enthusiast, Joystick Junction is here to amplify your gaming experience.
+Whether you're a casual player or a dedicated gaming enthusiast, Joystick Junction enhances every aspect of your gaming journey.
 
 * * * * *
 
-🚀 Getting Started
-------------------
+Getting Started
+---------------
 
-[](https://github.com/Sami-Jaffri/JoystickJunction#-getting-started)
-
-Follow these steps to set up and run the project locally.
+Follow the steps below to set up and run the project locally.
 
 ### Prerequisites
 
-[](https://github.com/Sami-Jaffri/JoystickJunction#prerequisites)
+Ensure the following software is installed on your system:
 
-Ensure the following are installed on your system:
-
--   🐳 [Docker](https://www.docker.com/)
--   ⚙️ [Docker Compose](https://docs.docker.com/compose/)
-
-* * * * *
+-   Docker
+-   Docker Compose
 
 ### Installation and Usage
 
-[](https://github.com/Sami-Jaffri/JoystickJunction#installation-and-usage)
+1.  **Clone the Repository**\
+    Open your terminal and execute the following commands:
 
-1.  Clone the Repository:\
-    Open your terminal and run:
+    bash
 
-    ```source-shell
-    git clone https://github.com/Sami-Jaffri/JoystickJunction.git
-    cd JoystickJunction
-    ```
+    Copy code
 
-2.  Start the Application:\
-    Use Docker Compose to build and run the services:
+    `git clone https://github.com/Sami-Jaffri/JoystickJunction.git
+    cd JoystickJunction`
 
-    ```source-shell
-    docker-compose up -d
-    ```
+2.  **Start the Application**\
+    Use Docker Compose to build and launch the services:
 
-3.  Load the Database:\
-    Open your browser and navigate to:
+    bash
 
-    ```
-    http://localhost/shop/loaddata.jsp
+    Copy code
 
-    ```
+    `docker-compose up -d`
 
-4.  Access the Login Page:\
-    Once the database is loaded, go to:
+3.  **Load the Database**\
+    Open your browser and navigate to:\
+    `http://localhost/shop/loaddata.jsp`
 
-    ```
-    http://localhost/shop/login.jsp
+4.  **Access the Login Page**\
+    Once the database is loaded, go to:\
+    `http://localhost/shop/login.jsp`
 
-    ```
-
-5.  Log In:\
+5.  **Log In**\
     Use the following customer credentials to explore the site:
 
     | Username | Password |
@@ -76,57 +65,45 @@ Ensure the following are installed on your system:
     | arnold | 304Arnold! |
     | bobby | 304Bobby! |
 
-* * * * *
-
-### 🛑 Stopping the Application
-
-[](https://github.com/Sami-Jaffri/JoystickJunction#-stopping-the-application)
+### Stopping the Application
 
 To stop and clean up the application, run:
 
-```source-shell
-docker-compose down
-```
+bash
+
+Copy code
+
+`docker-compose down`
 
 * * * * *
 
-📂 File Structure
------------------
+File Structure
+--------------
 
-[](https://github.com/Sami-Jaffri/JoystickJunction#-file-structure)
+Key files and directories include:
 
-Here's an overview of the key files and directories:
-
--   `Dockerfile`: Instructions for building the application image.
--   `docker-compose.yml`: Configuration to orchestrate services.
--   `/shop`: Contains the core web application files.
+-   **Dockerfile**: Instructions for building the application image.
+-   **docker-compose.yml**: Configuration to orchestrate services.
+-   **/shop**: Core web application files.
 
 * * * * *
 
-💡 Contributing
----------------
+Contributing
+------------
 
-[](https://github.com/Sami-Jaffri/JoystickJunction#-contributing)
+We welcome contributions to enhance Joystick Junction:
 
-We welcome contributions to improve Joystick Junction!
-
--   Fork the repository.
--   Create a feature branch.
--   Submit a pull request with your proposed changes.
+1.  Fork the repository.
+2.  Create a feature branch.
+3.  Submit a pull request with your proposed changes.
 
 * * * * *
 
-📜 License
-----------
+License
+-------
 
-[](https://github.com/Sami-Jaffri/JoystickJunction#-license)
-
-This project is open source. Do as you wish :)
+This project is open source and licensed for public use.
 
 * * * * *
 
-### 🎉 Happy Gaming!
-
-[](https://github.com/Sami-Jaffri/JoystickJunction#-happy-gaming)
-
-Grab your controller, explore the latest games, and let the fun begin! 🚀
+Get ready to explore the latest games and elevate your gaming experience with Joystick Junction
